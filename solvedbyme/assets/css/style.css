@@ -1,0 +1,161 @@
+
+* {
+    background-color: lightgray;
+}
+
+html {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    
+}
+
+
+header {
+    background-color: navy;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+}
+
+header h1 {
+    color: navy;
+    background-color: teal;
+    width: 300px;
+    text-align: end;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 15px;
+    font-family:monospace;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    background-color: navy;
+    position: relative;
+    right: 10px;
+}
+
+
+
+
+
+nav a{
+    color: teal;
+    text-decoration: underline;
+    text-decoration-thickness: 8px;
+    background-color: navy;
+} 
+
+nav li {
+    display: inline;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    
+}
+
+nav {
+    padding: 35px;
+    background-color: navy;
+}
+
+section img {
+    width: 1920px;
+    height: 250px;
+}
+
+section figcaption {
+    color: navy;
+    background-color: teal;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bolder;
+    position: relative;
+    left: 1400px;
+    bottom: 80px;
+    width: 400px;
+    
+}
+
+#abtme h1 {
+    color: navy;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 60px;
+    position: absolute;
+    left: 210px;
+    
+    
+}
+
+#abtme img {
+    width: 6px;
+    position: absolute;
+    left: 480px;
+}
+
+#abtme p {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 510px;
+    top: 404px;
+    color: navy;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-right: 100px;
+}
+
+
+#work h1 {
+    color: navy;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 60px;
+    position: absolute;
+    left: 335px;
+    top: 715px;
+}
+
+
+
+
+
+
+#work img {
+    width: 6px;
+    height: 600px;
+    position: absolute;
+    left: 480px;
+    top: 715px;
+}
+
+
+#workfig1 img {
+    width: auto;
+    position: absolute;
+    left: 550px;
+    border: 5px solid teal;
+    width: 1250px;
+    height: 500px;
+}
+
+#figcap {
+    position: absolute;
+    top: 1105px;
+    height: 40px;
+    width: 230px;
+    text-align: center;
+    padding-top: 5px;
+    left: 555px
+}
+
+
+
+

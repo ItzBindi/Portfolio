@@ -3,17 +3,12 @@
     background-color: lightgray;
 }
 
-html {
-    display: flex;
-    flex-wrap: wrap;
-    width: fit-content;
-    
-}
 
 
 header {
     background-color: navy;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     height: 100px;
     
@@ -65,25 +60,38 @@ nav {
     background-color: navy;
 }
 
-section img {
-    width: 1920px;
+#WTMP img {
+    width: 100%;
     height: 250px;
 }
 
-section figcaption {
+
+
+#WTMPcap {
+    display: flex;
+    flex-wrap: wrap;
     color: navy;
     background-color: teal;
     font-size: 30px;
     font-family: monospace;
     font-weight: bolder;
-    position: relative;
-    left: 1400px;
-    bottom: 80px;
-    width: 400px;
-    
+    padding: 5px;
+    margin-top: 5px;
+    width: 22%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 85%;
+    transform: translateX(-50%);
+    bottom: 650px;
+  }
+
+#abtme {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#abtme h1 {
+
+  #abtme h1 {
     color: navy;
     font-family: monospace;
     font-weight: bolder;
@@ -96,13 +104,12 @@ section figcaption {
 
 #abtme img {
     width: 6px;
+    height: 280px; ;
     position: absolute;
     left: 480px;
 }
 
 #abtme p {
-    display: flex;
-    flex-wrap: wrap;
     position: absolute;
     left: 510px;
     top: 404px;
@@ -110,6 +117,13 @@ section figcaption {
     font-size: 20px;
     font-weight: bolder;
     margin-right: 100px;
+}
+
+
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -137,22 +151,40 @@ section figcaption {
 }
 
 
+
+#workfig1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
 #workfig1 img {
     position: absolute;
     left: 550px;
     border: 5px solid teal;
     width: 1250px;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+
+
 #figcap1 {
+    color: navy;
+    background-color: teal;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
     position: absolute;
     top: 1105px;
-    height: 40px;
+    height: auto;
     width: 230px;
     text-align: center;
     padding-top: 5px;
-    left: 555px
+    left: 555px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -166,6 +198,11 @@ section figcaption {
 }
 
 #figcap2 {
+    color: navy;
+    background-color: teal;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
     position: absolute;
     top: 1405px;
     height: 64px;
@@ -185,6 +222,11 @@ section figcaption {
 }
 
 #figcap3 {
+    color: navy;
+    background-color: teal;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
     position: absolute;
     top: 1405px;
     height: 40px;
@@ -204,6 +246,11 @@ section figcaption {
 }
 
 #figcap4 {
+    color: navy;
+    background-color: teal;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
     position: absolute;
     top: 1690px;
     height: 40px;
@@ -223,6 +270,11 @@ section figcaption {
 }
 
 #figcap5 {
+    color: navy;
+    background-color: teal;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
     position: absolute;
     top: 1690px;
     height: 40px;
@@ -274,3 +326,19 @@ footer a {
     color: teal;
 }
 
+
+   
+@media screen and (max-width: 980px) {
+    header {
+        padding: 0 0 10px 0;
+        text-align: center;
+        justify-content: flex-start;
+
+    }
+    nav {
+        justify-content: flex-end;
+    }
+    nav li {
+        margin-left: 10px;
+    }
+}
